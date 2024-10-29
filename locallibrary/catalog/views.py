@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.views.generic import ListView, DetailView
+
 from .models import Book, BookInstance, Author
 
 
@@ -17,6 +19,26 @@ def index(request):
         'num_authors':num_authors,
     }
     return render(request, 'index.html', context=context)
+
+
+class BookListView(ListView):
+    model = Book
+    paginate_by = 10
+
+
+class BookDetailView(DetailView):
+    model = Book
+    queryset = Book.objects.select_related('author').prefetch_related('bookinstance_set').all()
+    paginate_by = 10
+
+
+class AuthorListView(ListView):
+    model = Author
+
+
+class AuthorDetailView(DetailView):
+    model = Author
+
 
 
 # Create your views here.

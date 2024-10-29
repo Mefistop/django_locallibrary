@@ -1,5 +1,5 @@
 import uuid
-from audioop import reverse
+from django.urls import reverse
 
 from django.db import models
 
@@ -111,6 +111,9 @@ class Author(models.Model):
         String for representing the Model object.
         """
         return  f'{self.last_name} {self.first_name}'
+
+    class Meta:
+        ordering = ['last_name']
 
 
 class Language(models.Model):
