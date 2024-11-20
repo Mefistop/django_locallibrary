@@ -23,10 +23,10 @@ urlpatterns = [
     path('mybooks/', LoanedBooksByUserListView.as_view(), name='my-borrowed'),
     path('borrowed/', LoanedBooksAllListView.as_view(), name='all-borrowed'),
     path('book/<uuid:pk>/renew/', renew_book_librarian,name='renew-book-librarian'),
-    path('author/create/', AuthorCreate.as_view(), name='author_create'),
-    path('author/<int:pk>/update/', AuthorUpdate.as_view(), name='author_update'),
-    path('author/<int:pk>/delete/', AuthorDelete.as_view(), name='author_delete'),
-    path('book/create/', BookCreate.as_view(), name='book_create'),
-    path('book/<int:pk>/update/', BookUpdate.as_view(), name='book_update'),
-    path('book/<int:pk>/delete/', BookDelete.as_view(), name='book_delete')
+    path('author/create/', AuthorCreate.as_view(), name='author-create'),
+    path('author/<int:pk>/update/', AuthorUpdate.as_view(), name='author-update'),
+    path('author/<int:pk>/delete/', AuthorDelete.as_view(), name='author-delete'),
+    path('book/create/', BookCreate.as_view(), name='book-create'),
+    path('book/<int:pk>/update/', BookUpdate.as_view(), name='book-update'),
+    path('book/<int:pk>/delete/', BookDelete.as_view(), name='book-delete')
 ]

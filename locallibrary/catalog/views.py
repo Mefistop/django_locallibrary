@@ -2,7 +2,7 @@ import datetime
 from sunau import Au_read
 
 from django.contrib.admin.models import DELETION
-from django.contrib.auth.decorators import permission_required
+from django.contrib.auth.decorators import permission_required, login_required
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.db.models.sql import UpdateQuery
 from django.http import HttpResponse, HttpResponseRedirect
@@ -79,6 +79,7 @@ class LoanedBooksAllListView(PermissionRequiredMixin, ListView):
     def get_queryset(self):
         return BookInstance.objects.filter(status='o').order_by('due_back')
 
+@login_required
 @permission_required('catalog.can_mark_returned', raise_exception=True)
 def renew_book_librarian(request, pk):
     """View function for renewing a specific BookInstance by librarian."""
@@ -95,10 +96,11 @@ def renew_book_librarian(request, pk):
     return render(request, 'catalog/book_renew_librarian.html', {'form':form, 'bookinst': book_inst})
 
 
-class AuthorCreate(CreateView):
+class AuthorCreate(PermissionRequiredMixin, CreateView):
     model = Author
     fields = '__all__'
     initial = {'date_of_death': '12/10/2024'}
+    permission_required = 'catalog.add_author'
 
 
 class AuthorUpdate(UpdateView):
