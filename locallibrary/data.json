@@ -1,0 +1,1132 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-23T17:56:47.799Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Orwell George",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-23T17:57:25.848Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Austen Jane",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-23T17:58:17.884Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Fantasy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-23T17:58:53.635Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "1984",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-23T17:59:25.319Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Скотный двор",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-10-23T18:00:00.576Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Classic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-10-23T18:00:04.066Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Гордость и предубеждение",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-10-23T18:00:25.140Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Эмма",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-10-23T18:01:43.267Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Politics",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-10-23T18:01:45.675Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Скотный двор",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Genre\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-10-23T18:03:33.793Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "547ee191-90c6-44ee-97ce-6d60364e8c8a",
+      "object_repr": "547ee191-90c6-44ee-97ce-6d60364e8c8a 1984",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-10-23T18:03:45.328Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 1984",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-10-23T18:03:52.668Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13",
+      "object_repr": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13 Гордость и предубеждение",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-10-23T18:03:58.954Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-10-23T18:04:22.728Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 1984",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-10-23T18:04:33.160Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-10-23T18:04:38.619Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "547ee191-90c6-44ee-97ce-6d60364e8c8a",
+      "object_repr": "547ee191-90c6-44ee-97ce-6d60364e8c8a 1984",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-10-23T18:04:42.472Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13",
+      "object_repr": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13 Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-10-29T18:09:46.929Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 Эмма",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Book\", \"Imprint\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-10-29T18:10:13.617Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imprint\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-10-29T18:10:28.282Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "547ee191-90c6-44ee-97ce-6d60364e8c8a",
+      "object_repr": "547ee191-90c6-44ee-97ce-6d60364e8c8a 1984",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imprint\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-10-29T18:10:43.714Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13",
+      "object_repr": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13 Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imprint\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-10-31T17:59:47.181Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Library Members",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-10-31T18:01:05.173Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "albert",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-10-31T18:01:33.409Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "albert",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-10-31T19:09:14.821Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 Эмма",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Borrower\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-10-31T19:09:22.775Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Borrower\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-10-31T19:09:29.099Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 Эмма",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Due back\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-10-31T19:09:54.219Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "547ee191-90c6-44ee-97ce-6d60364e8c8a",
+      "object_repr": "547ee191-90c6-44ee-97ce-6d60364e8c8a 1984",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Due back\", \"Borrower\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-10-31T19:10:04.628Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Borrower\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-10-31T19:10:17.634Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+      "object_repr": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429 Эмма",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Due back\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-10-31T19:27:49.574Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+      "object_repr": "6aa56d3a-c1f3-44af-8715-6c330415174d Гордость и предубеждение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Borrower\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-10-31T19:30:26.674Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Librarian",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-10-31T19:31:09.915Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Librarian",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-10-31T19:31:24.606Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "albert",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add language",
+      "content_type": 7,
+      "codename": "add_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change language",
+      "content_type": 7,
+      "codename": "change_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete language",
+      "content_type": 7,
+      "codename": "delete_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view language",
+      "content_type": 7,
+      "codename": "view_language"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add book",
+      "content_type": 8,
+      "codename": "add_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change book",
+      "content_type": 8,
+      "codename": "change_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete book",
+      "content_type": 8,
+      "codename": "delete_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view book",
+      "content_type": 8,
+      "codename": "view_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add genre",
+      "content_type": 9,
+      "codename": "add_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change genre",
+      "content_type": 9,
+      "codename": "change_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete genre",
+      "content_type": 9,
+      "codename": "delete_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view genre",
+      "content_type": 9,
+      "codename": "view_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add book instance",
+      "content_type": 10,
+      "codename": "add_bookinstance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change book instance",
+      "content_type": 10,
+      "codename": "change_bookinstance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete book instance",
+      "content_type": 10,
+      "codename": "delete_bookinstance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view book instance",
+      "content_type": 10,
+      "codename": "view_bookinstance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add author",
+      "content_type": 11,
+      "codename": "add_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change author",
+      "content_type": 11,
+      "codename": "change_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete author",
+      "content_type": 11,
+      "codename": "delete_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view author",
+      "content_type": 11,
+      "codename": "view_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Set book as returned",
+      "content_type": 10,
+      "codename": "can_mark_returned"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Library Members",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "Librarian",
+      "permissions": [
+        45
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$8mP5Rj7i5tJcl47UBqIbOd$9P3mgIYOz0ITKlRvwtE7fbHfveQxDV+HANK2v8OOeHU=",
+      "last_login": "2024-12-03T18:16:01.125Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-22T18:15:22.835Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$lKzZcYpn3K2SjgiON940Eu$REL+qsptdMjmkr90kJeQgiEuB1ldinNeeWVEVwzxrrE=",
+      "last_login": "2024-11-18T18:06:26.583Z",
+      "is_superuser": false,
+      "username": "albert",
+      "first_name": "alb",
+      "last_name": "richardson",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-31T18:01:04Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dm2ic5rff5v4lxicempc5ivhndp667jz",
+    "fields": {
+      "session_data": ".eJxVjDsOgzAQRO-ydWQBNv5Qps8ZrF2vCc7HljCkiXL3gERDNdK8N_OFvL79J9W0VBi6C3hcl8mvNc4-MQzQwqkjDM-Yd8APzPciQsnLnEjsijhoFbfC8XU93NPBhHXa1tY5ozlglG1gI5VUymlryRG7qDsaey2l7QM1kokIt1Bjh86wDNY0DL8_hPM9Qg:1tIXSP:v-jOPkGqQ8QkCW-vdVZaa44zUlNK2Zx4r7VW8ET3Hq0",
+      "expire_date": "2024-12-17T18:17:09.362Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dzksd5mhhvepo9u07heu6r6vg9m2bb18",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAUBf-la9P0tlCsS_d8Q3NfFdRAQmFl_HclYaHbMzPnZTJu65C3qksexVwMmNPvRsgPnXYgd5xus-V5WpeR7K7Yg1bbz6LP6-H-HQxYh2_Nwu7ctKHzwERtiNr5BhlESxB1GiMJuIReOaYCBJyCS6reN4qFybw_-SM43A:1t3fWa:eTdvyWTv--6EdwucRIM8QXZAjAwhu69eYbq23on-U6s",
+      "expire_date": "2024-11-06T17:52:00.150Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hanishg7ao1kdq812i18t5xg7o4xti3y",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAUBf-la9P0tlCsS_d8Q3NfFdRAQmFl_HclYaHbMzPnZTJu65C3qksexVwMmNPvRsgPnXYgd5xus-V5WpeR7K7Yg1bbz6LP6-H-HQxYh2_Nwu7ctKHzwERtiNr5BhlESxB1GiMJuIReOaYCBJyCS6reN4qFybw_-SM43A:1tD6LT:KghuqC-0OBEJSZ_h-yVo5WlISRBdca3UZcdi2xy5bng",
+      "expire_date": "2024-12-02T18:19:31.600Z"
+    }
+  },
+  {
+    "model": "catalog.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "catalog.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Classic"
+    }
+  },
+  {
+    "model": "catalog.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Politics"
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 1,
+    "fields": {
+      "title": "1984",
+      "author": 1,
+      "summary": "Джордж Оруэлл, настоящее имя Эрик Артур Блэр, был английским писателем и журналистом. Его работы часто исследуют темы социальной несправедливости и тоталитаризма.",
+      "isbn": "978-045152493",
+      "language": null,
+      "genre": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 2,
+    "fields": {
+      "title": "Скотный двор",
+      "author": 1,
+      "summary": "Джордж Оруэлл, настоящее имя Эрик Артур Блэр, был английским писателем и журналистом. Его работы часто исследуют темы социальной несправедливости и тоталитаризма.",
+      "isbn": "978-045152634",
+      "language": null,
+      "genre": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 3,
+    "fields": {
+      "title": "Гордость и предубеждение",
+      "author": 2,
+      "summary": "Джейн Остин была английской писательницей, известной своими романами о жизни и любви в британском обществе начала XIX века.",
+      "isbn": "978-014143951",
+      "language": null,
+      "genre": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 4,
+    "fields": {
+      "title": "Эмма",
+      "author": 2,
+      "summary": "Джейн Остин была английской писательницей, известной своими романами о жизни и любви в британском обществе начала XIX века.",
+      "isbn": "978-014143958",
+      "language": null,
+      "genre": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "catalog.bookinstance",
+    "pk": "43ca32fe-8dd0-4ec8-a8bd-d08da59eec13",
+    "fields": {
+      "book": 3,
+      "imprint": "T. Egerton, Whitehall",
+      "due_back": null,
+      "status": "a",
+      "borrower": null
+    }
+  },
+  {
+    "model": "catalog.bookinstance",
+    "pk": "547ee191-90c6-44ee-97ce-6d60364e8c8a",
+    "fields": {
+      "book": 1,
+      "imprint": "Secker & Warburg",
+      "due_back": "2024-11-01",
+      "status": "o",
+      "borrower": 2
+    }
+  },
+  {
+    "model": "catalog.bookinstance",
+    "pk": "6aa56d3a-c1f3-44af-8715-6c330415174d",
+    "fields": {
+      "book": 3,
+      "imprint": "T. Egerton, Whitehall",
+      "due_back": "2024-11-28",
+      "status": "o",
+      "borrower": 1
+    }
+  },
+  {
+    "model": "catalog.bookinstance",
+    "pk": "8b3bbd1a-ccb5-4c90-a73c-16d2bf323429",
+    "fields": {
+      "book": 4,
+      "imprint": "John Murray",
+      "due_back": "2024-10-30",
+      "status": "o",
+      "borrower": 2
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 1,
+    "fields": {
+      "first_name": "George",
+      "last_name": "Orwell",
+      "date_of_birth": "1903-06-20",
+      "date_of_death": "1950-01-21"
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 2,
+    "fields": {
+      "first_name": "Jane",
+      "last_name": "Austen",
+      "date_of_birth": "1775-12-16",
+      "date_of_death": "1817-07-18"
+    }
+  }
+]
