@@ -129,12 +129,6 @@ http://localhost:8000/admin/
 - Список книг, взятых их библиотеки пользователем: `http://localhost:8000/catalog/mybooks/`
 - Список всех книг, взятых их библиотеки:`http://localhost:8000/catalog/borrowed/`
 
-
-
-4. **Создание, обновление и удаление автора**:
-   - Создание: `/catalog/authors/create`
-   - Обновление: `/catalog/authors/<int:pk>/update`
-   - Удаление: `/catalog/authors/<int:pk>/delete`
 ---
 
 ### Создание, обновление и удаление книг
