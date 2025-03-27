@@ -1,5 +1,4 @@
 import datetime
-from sunau import Au_read
 
 from django.contrib.admin.models import DELETION
 from django.contrib.auth.decorators import permission_required, login_required
